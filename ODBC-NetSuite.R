@@ -1,6 +1,6 @@
 
 # Loading Libraries
-## Here are the changes --- Fuck..U
+## Here are the changes --- 
 install.packages("RODBC")
 library("RODBC")
 
