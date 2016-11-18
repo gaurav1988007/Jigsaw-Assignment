@@ -20,7 +20,7 @@ housing$Land.Value <-  gsub("[\\$,]" , "", housing$Land.Value)
 housing$Land.Share..Pct. <-  gsub("[\\%,]" , "", housing$Land.Share..Pct.)
 str(housing)
 
-# converting multipe columns at one go ------------------------------------
+# converting multiple columns data types at one go ------------------------------------
 for(i in c(3:ncol(housing))) {
   housing[,i] <- as.numeric(housing[,i])
 }
