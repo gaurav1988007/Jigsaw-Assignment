@@ -15,7 +15,7 @@ library("plyr")
 # Generated all the credential from personal twitter  account  ------------
 # setting all the keys to the R object
 
-api_key <- "*********" 
+api_key <- "**************" 
 
 api_secret <- "********************************************"
 
