@@ -15,13 +15,13 @@ library("plyr")
 # Generated all the credential from personal twitter  account  ------------
 # setting all the keys to the R object
 
-api_key <- "r5cyBkpIrWs9UVAo9MsqtodfR" 
+api_key <- "*********" 
 
-api_secret <- "DvI0oR29tzG8HiuTUTM9WRxFNi3wE3AbrorsGYuyClnqrlXili"
+api_secret <- "********************************************"
 
-access_token <- "361304989-tEteoDf7gWelG5B7xr4v37WBaMknOsjb28UPKi9p"
+access_token <- "**********************************************"
 
-access_token_secret <- "LHOI0xcIj1JWD4jBAPGSRfyzsZvrCSAN6a0AFsftQPCvo"
+access_token_secret <- "*****************************************"
 
 # calling setup_twitter_oauth() function to establish twitter connection with R
 setup_twitter_oauth(api_key,api_secret,access_token,access_token_secret)
